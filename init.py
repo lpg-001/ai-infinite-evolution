@@ -126,7 +126,7 @@ def init_ai_assistant(ai_name, project_path=None):
     """初始化指定AI助手"""
     if ai_name not in AI_ASSISTANTS:
         print(f"❌ 不支持的AI助手: {ai_name}")
-        print(f"支持的AI助手: {", ".join(AI_ASSISTANTS.keys())}")
+        print(f"支持的AI助手: {', '.join(AI_ASSISTANTS.keys())}")
         return False
     
     if project_path is None:
@@ -194,7 +194,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='AI无限进化系统 - 快速初始化脚本',
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=""
+        epilog="""
 示例:
   python init.py --ai cursor              # 初始化Cursor
   python init.py --ai claude               # 初始化Claude Code
