@@ -191,30 +191,26 @@ cp templates/.clauderules .clauderules
 
 ### 快速部署命令参考
 
-```bash
-# Install CLI globally (如果使用uipro-cli)
-npm install -g uipro-cli
-
 # Go to your project
 cd /path/to/your/project
 
 # Install for your AI assistant
-uipro init --ai claude      # Claude Code
-uipro init --ai cursor      # Cursor
-uipro init --ai windsurf    # Windsurf
-uipro init --ai antigravity # Antigravity
-uipro init --ai copilot     # GitHub Copilot
-uipro init --ai kiro        # Kiro
-uipro init --ai codex       # Codex CLI
-uipro init --ai qoder       # Qoder
-uipro init --ai roocode     # Roo Code
-uipro init --ai gemini      # Gemini CLI
-uipro init --ai trae        # Trae
-uipro init --ai opencode    # OpenCode
-uipro init --ai continue    # Continue
-uipro init --ai codebuddy   # CodeBuddy
-uipro init --ai droid       # Droid (Factory)
-uipro init --ai all         # All assistants
+python init --ai claude      # Claude Code
+python init --ai cursor      # Cursor
+python init --ai windsurf    # Windsurf
+python init --ai antigravity # Antigravity
+python init --ai copilot     # GitHub Copilot
+python init --ai kiro        # Kiro
+python init --ai codex       # Codex CLI
+python init --ai qoder       # Qoder
+python init --ai roocode     # Roo Code
+python init --ai gemini      # Gemini CLI
+python init --ai trae        # Trae
+python init --ai opencode    # OpenCode
+python init --ai continue    # Continue
+python init --ai codebuddy   # CodeBuddy
+python init --ai droid       # Droid (Factory)
+python init --ai all         # All assistants
 ```
 
 ## 📚 使用指南
