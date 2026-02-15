@@ -189,29 +189,8 @@ cp templates/.clauderules .clauderules
 | **CodeBuddy** | `.codebuddyrules` | `python init.py --ai codebuddy` |
 | **Droid (Factory)** | `.droidrules` | `python init.py --ai droid` |
 
-### 快速部署命令参考
 
-# Go to your project
-cd /path/to/your/project
 
-# Install for your AI assistant
-python init --ai claude      # Claude Code
-python init --ai cursor      # Cursor
-python init --ai windsurf    # Windsurf
-python init --ai antigravity # Antigravity
-python init --ai copilot     # GitHub Copilot
-python init --ai kiro        # Kiro
-python init --ai codex       # Codex CLI
-python init --ai qoder       # Qoder
-python init --ai roocode     # Roo Code
-python init --ai gemini      # Gemini CLI
-python init --ai trae        # Trae
-python init --ai opencode    # OpenCode
-python init --ai continue    # Continue
-python init --ai codebuddy   # CodeBuddy
-python init --ai droid       # Droid (Factory)
-python init --ai all         # All assistants
-```
 
 ## 📚 使用指南
 
